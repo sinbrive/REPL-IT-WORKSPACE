@@ -6,6 +6,7 @@ public class Main {
     Scanner scanner = new Scanner(System.in);
     String sc = "";
     while (!sc.startsWith("00")) {
+      System.out.print("Type a number: ");
       sc = scanner.nextLine();
       System.out.println(sc);
     }
